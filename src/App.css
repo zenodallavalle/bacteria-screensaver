@@ -1,0 +1,32 @@
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #212529;
+}
+
+.bg-success-semitransparent {
+  background-color: rgba(025, 135, 84, 0.7);
+}
+
+.bg-warning-semitransparent {
+  background-color: rgba(255, 153, 0, 0.7);
+}
+
+.bg-danger-semitransparent {
+  background-color: rgba(220, 53, 69, 0.7);
+}
+
+.transition-bg {
+  transition: background-color 400ms ease-in-out;
+}
+
+.transition-opacity {
+  transition: opacity 400ms ease-in-out;
+}
